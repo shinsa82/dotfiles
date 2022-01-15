@@ -15,4 +15,7 @@ bash git-setup.sh
 echo "** setting up ssh..."
 bash ssh-setup.sh
 
+echo "** chainging login shell again..."
+bash bash-setup.sh
+
 echo "** setup completed."
