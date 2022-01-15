@@ -1,0 +1,12 @@
+Path setting for programs installed by brew 
+Note: --with-default-names options has been removed.
+
+grep
+/usr/local/opt/grep/libexec/gnubin
+
+coreutils
+/usr/local/opt/coreutils/libexec/gnubin
+
+make
+/usr/local/opt/make/libexec/gnubin
+
