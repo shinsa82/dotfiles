@@ -24,5 +24,5 @@ brew install anyenv
 
 # cask formulae
 brew install --cask google-chrome karabiner-elements visual-studio-code \
-    google-japanese-ime roboform adobe-acrobat-reader
+    google-japanese-ime roboform adobe-acrobat-reader docker
 echo "** installed."
