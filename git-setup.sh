@@ -19,3 +19,6 @@ git config --global init.defaultbranch main # default is still "master", as of J
 
 # setting for git remind
 git config --global remind.paths "${HOME}/dotfiles,${HOME}/git/*"
+
+echo "** setting crontab to invoke git-remind..."
+echo "0 11,17,23 * * * /usr/local/bin/git-remind status-notification >/dev/null 2>&1" | crontab

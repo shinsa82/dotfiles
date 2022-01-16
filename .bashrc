@@ -24,13 +24,16 @@ alias ocl="oc login"
 alias av="anyenv versions"
 alias pv="pyenv versions"
 
+alias grr="git remind repos"
+alias gr="git remind status -a -s"
+
 # tabtab source for yo package
 # uninstall by removing these lines or running `tabtab uninstall yo`
 # [ -f /Users/shinsa/git/tecj/2019/generator-test/node_modules/tabtab/.completions/yo.bash ] && . /Users/shinsa/git/tecj/2019/generator-test/node_modules/tabtab/.completions/yo.bash
 
 # eval "$(direnv hook bash)"
 
-# prompt
+# prompt settings
 function parse_git_branch {
     git branch --no-color 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \(\1\)/'
 }
@@ -47,4 +50,5 @@ function set_prompt {
 
 set_prompt
 
+# fzf settings
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
