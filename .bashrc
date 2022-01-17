@@ -26,6 +26,7 @@ alias pv="pyenv versions"
 
 alias grr="git remind repos"
 alias gr="git remind status -a -s"
+alias grn="git remind status-notification"
 
 # tabtab source for yo package
 # uninstall by removing these lines or running `tabtab uninstall yo`
