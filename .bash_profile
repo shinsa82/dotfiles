@@ -2,7 +2,7 @@
 echo "loading .bash_profile..."
 
 # coreutils, sed, getopt
-export PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/gnu-getopt/bin:$PATH"
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/opt/grep/libexec/gnubin:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/gnu-getopt/bin:$PATH"
 # export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 # make
 export PATH="/usr/local/opt/make/libexec/gnubin:$PATH"
