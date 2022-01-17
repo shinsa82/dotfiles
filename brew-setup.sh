@@ -25,4 +25,8 @@ brew install anyenv
 # cask formulae
 brew install --cask google-chrome karabiner-elements visual-studio-code \
     google-japanese-ime roboform adobe-acrobat-reader docker
+
+brew install minikube # also installes kubernetes-cli, but it conflicts with kubectl from docker
+brew link --overwrite kubernetes-cli # overwrite the symlink
+
 echo "** installed."
