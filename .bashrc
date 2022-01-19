@@ -18,6 +18,10 @@ alias gs="git status -sb --ignored"
 alias k="kubectl"
 alias ocs="oc status"
 alias ocl="oc login"
+
+# completion for "k" alias
+complete -o default -F __start_kubectl k
+
 # # if s2i works,
 # eval "$(s2i completion bash)"
 
