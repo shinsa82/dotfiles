@@ -11,3 +11,8 @@ $ bash install.sh
 ```
 
 In addition you may want to import terminal settings.
+
+# Files for Dev Container (VS Code)
+
+- .bash_aliases: alias file.
+- install-devcon.sh: installer for devcontainer.
