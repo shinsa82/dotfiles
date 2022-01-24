@@ -21,6 +21,7 @@ brew install suin/suin/git-remind
 brew install fzf
 brew install openssh
 brew install anyenv
+brew install graphviz
 
 # cask formulae
 brew install --cask google-chrome karabiner-elements visual-studio-code \
