@@ -31,3 +31,4 @@ brew install helm minikube # also installes kubernetes-cli, but it conflicts wit
 brew link --overwrite kubernetes-cli # overwrite the symlink
 
 echo "** installed."
+echo "** do not forget to set 'detachKeys' property of Docker."
