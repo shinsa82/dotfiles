@@ -6,6 +6,8 @@ export PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/opt/grep/libexec
 # export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 # make
 export PATH="/usr/local/opt/make/libexec/gnubin:$PATH"
+# zip, unzip
+export PATH="/usr/local/opt/zip/bin:/usr/local/opt/unzip/bin:$PATH"
 
 # Tcl/Tk path override
 # export PATH="/usr/local/opt/tcl-tk/bin:$PATH"

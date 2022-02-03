@@ -14,7 +14,7 @@ brew install bash-completion@2
 brew install grep coreutils make # Note: --with-default-names deprecated.
 
 brew install jq
-brew install gzip
+brew install gzip unzip zip
 brew install tree
 brew install nkf
 brew install suin/suin/git-remind
