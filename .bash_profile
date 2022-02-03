@@ -80,4 +80,7 @@ export PATH="$HOME/.poetry/bin:$PATH"
 # export LDFLAGS="-L/usr/local/opt/zlib/lib -L/usr/local/opt/bzip2/lib"
 # export CPPFLAGS="-I/usr/local/opt/zlib/include -I/usr/local/opt/bzip2/include"
 
+# Root folder of Box Drive app
+export BOX=$(defaults read com.box.desktop preferences/sync_directory_path)
+
 [[ -f ${HOME}/.bashrc ]] && . ${HOME}/.bashrc

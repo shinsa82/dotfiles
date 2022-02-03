@@ -1,3 +1,7 @@
+if [ -z "$PS1" ]; then
+    return
+fi 
+
 echo "loading .bashrc..."
 
 # Aliases
