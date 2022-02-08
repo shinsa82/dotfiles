@@ -13,6 +13,7 @@ brew install bash-completion@2
 
 brew install grep coreutils make # Note: --with-default-names deprecated.
 
+brew install watch
 brew install jq
 brew install gzip unzip zip
 brew install tree
