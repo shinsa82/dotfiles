@@ -77,6 +77,9 @@ export BIBINPUTS=$HOME/git/tex
 # Poetry (Python version manager)
 export PATH="$HOME/.poetry/bin:$PATH"
 
+# XQuartz (X11 server)
+export PATH="/usr/X11/bin:$PATH"
+
 # include path for libraries installed via brew
 # bzip2, zlib by brew
 # export LDFLAGS="-L/usr/local/opt/zlib/lib -L/usr/local/opt/bzip2/lib"
