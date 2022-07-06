@@ -23,6 +23,7 @@ brew install fzf
 brew install openssh
 brew install anyenv
 brew install graphviz
+brew install swig # for OpenAI Gym (and hence Box2D) to work
 
 # cask formulae
 brew install --cask google-chrome karabiner-elements visual-studio-code \
