@@ -28,6 +28,7 @@ brew install swig # for OpenAI Gym (and hence Box2D) to work
 # cask formulae
 brew install --cask google-chrome karabiner-elements visual-studio-code \
     google-japanese-ime roboform adobe-acrobat-reader docker
+brew install --cask xquartz
 
 brew install helm minikube # also installes kubernetes-cli, but it conflicts with kubectl from docker
 brew link --overwrite kubernetes-cli # overwrite the symlink
